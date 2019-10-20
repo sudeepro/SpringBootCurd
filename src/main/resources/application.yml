@@ -1,0 +1,16 @@
+#server port number
+server: 
+  port: 9191
+
+  servlet: 
+    context-path: /ProApp2/
+
+spring: 
+  mvc: 
+    view: 
+     prefix: /WEB-INF/view/
+     suffix: .jsp
+
+  profiles:
+    active: dev
+
